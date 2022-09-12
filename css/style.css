@@ -12,7 +12,7 @@ header {
 
 h1 {
     font-size: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 header img {
@@ -35,3 +35,16 @@ header img {
 .author span {
     font-size: 15px;
 }
+
+.photo {
+    margin-top: 15px;
+}
+
+
+.photo p {
+    font-size: 10px;
+    line-height: 2px;
+    margin-top: 2px;
+}
+
+
