@@ -1,9 +1,5 @@
-body {
-    margin: 0;
-}
-
 header {
-    width: 100%;
+    width: 100vw;
     height: 170px;
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
@@ -46,5 +42,28 @@ header img {
     line-height: 2px;
     margin-top: 2px;
 }
+
+.article span {
+    background-color: yellow;
+}
+
+.article ul {
+    padding: 15px;
+}
+
+.tab th:nth-child(3) {
+    width: 50%;
+}
+
+.tab thead {
+    text-align: left;
+    color: white;
+    background-color: #20A9E5;
+}
+
+tr{
+    float: left;
+}
+
 
 
