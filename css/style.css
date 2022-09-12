@@ -51,19 +51,27 @@ header img {
     padding: 15px;
 }
 
-.tab th:nth-child(3) {
+.tab th, .tab td {
+    width: 25%;
+}
+
+.tab th:nth-child(3), .tab td:nth-child(3) {
     width: 50%;
 }
 
-.tab thead {
-    text-align: left;
-    color: white;
-    background-color: #20A9E5;
-}
 
 tr{
     float: left;
+    width: 100%;
 }
 
+tbody tr:nth-child(1), tbody tr:nth-child(3) {
+    background-color: #B1E5F2;
+}
+
+.tab thead {
+    color: white;
+    background-color: #20A9E5;
+}
 
 
