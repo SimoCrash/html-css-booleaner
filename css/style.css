@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    width: 100vw;
     height: 170px;
     background-image: url("../img/pattern.png");
+    background-size: 681px;
     background-repeat: repeat;
     background-color: #4EA0FF;
 }
@@ -51,21 +56,21 @@ header img {
     padding: 15px;
 }
 
-.tab th, .tab td {
+.row-25 {
     width: 25%;
 }
 
-tr{
-    float: left;
-    width: 100%;
-}
-
-.tab th:nth-child(3), .tab td:nth-child(3) {
+.row-50 {
     width: 50%;
 }
 
-tbody tr:nth-child(1), tbody tr:nth-child(3) {
+.row-blue {
     background-color: #B1E5F2;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
 }
 
 .tab thead {
